@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Velas Artesanales</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <main>
+    <div class="container p-5 mt-3 home-content">
+      <!-- Encabezado -->
+      <div class="jumbotron text-center bg-light p-5 rounded shadow home-hero">
+        <h1 class="display-4">Le Flambeau</h1>
+        <p class="lead">Velas artesanales con aromas únicos y naturales</p>
+      </div>
+
+      <!-- Sobre Nosotros -->
+      <div class="mt-5">
+        <h3 class="text-center">Nuestra Historia</h3>
+        <p class="text-center mt-3">
+          Somos una marca dedicada a crear velas artesanales con aromas únicos
+          y naturales, pensadas para acompañarte en cada momento especial.
+        </p>
+      </div>
+
+      <!-- Formas de Comprar -->
+      <div class="row text-center mt-5">
+        <div class="col-md-4">
+          <i class="fas fa-store fa-3x mb-3 text-primary"></i>
+          <h4>Tienda Física</h4>
+          <p>
+            Puedes visitarnos en nuestra tienda en el centro de la ciudad con
+            aromas de prueba.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <i class="fab fa-whatsapp fa-3x mb-3 text-success"></i>
+          <h4>Pedidos por WhatsApp</h4>
+          <p>
+            Realiza tu pedido enviando un mensaje a nuestro número oficial.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <i class="fas fa-share-alt fa-3x mb-3 text-danger"></i>
+          <h4>Redes Sociales</h4>
+          <p>
+            Encuéntranos en Instagram y Facebook con promociones y
+            lanzamientos semanales.
+          </p>
+        </div>
+      </div>
+    </div>
+    <section style="
+          max-width: 900px;
+          margin: 4rem auto;
+          background: rgba(255, 255, 255, 0.85);
+          padding: 3rem;
+          border-radius: 24px;
+          text-align: center;
+          box-shadow: 0 20px 55px rgba(0, 0, 0, 0.25);
+        ">
+      <h1 style="color: #7a4a3a">Bienvenidos a Velas Artesanales</h1>
+
+      <p style="margin: 1.5rem 0; font-size: 1.1rem">
+        Descubre nuestra colección de velas decorativas, aromáticas y
+        especiales, elaboradas con dedicación y estilo.
+      </p>
+    </section>
+
+    <section class="botones-categorias" style="margin-top: 2rem; display: flex; flex-wrap: wrap; gap: 1rem">
+      <a href="catalogo.html" style="
+            display: inline-block;
+            padding: 0.8rem 2rem;
+            background: #7a4a3a;
+            color: #fff;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 500;
+            transition:
+              background 0.3s,
+              transform 0.2s;
+          " onmouseover="
+            this.style.background = '#945c4a';
+            this.style.transform = 'scale(1.05)';
+          " onmouseout="
+            this.style.background = '#7a4a3a';
+            this.style.transform = 'scale(1)';
+          ">
+        Ver Catálogo
+      </a>
+
+      <a href="Ccategoria.html" style="
+            display: inline-block;
+            padding: 0.8rem 2rem;
+            background: #4a7a3a;
+            color: #fff;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 500;
+            transition:
+              background 0.3s,
+              transform 0.2s;
+          " onmouseover="
+            this.style.background = '#5c9450';
+            this.style.transform = 'scale(1.05)';
+          " onmouseout="
+            this.style.background = '#4a7a3a';
+            this.style.transform = 'scale(1)';
+          ">
+        Crear Categoría
+      </a>
+
+      <a href="Lcategoria.html" style="
+            display: inline-block;
+            padding: 0.8rem 2rem;
+            background: #3a4a7a;
+            color: #fff;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 500;
+            transition:
+              background 0.3s,
+              transform 0.2s;
+          " onmouseover="
+            this.style.background = '#506094';
+            this.style.transform = 'scale(1.05)';
+          " onmouseout="
+            this.style.background = '#3a4a7a';
+            this.style.transform = 'scale(1)';
+          ">
+        Listar Categoría
+      </a>
+
+      <a href="Ecategoria.html" style="
+            display: inline-block;
+            padding: 0.8rem 2rem;
+            background: #7a3a7a;
+            color: #fff;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 500;
+            transition:
+              background 0.3s,
+              transform 0.2s;
+          " onmouseover="
+            this.style.background = '#945094';
+            this.style.transform = 'scale(1.05)';
+          " onmouseout="
+            this.style.background = '#7a3a7a';
+            this.style.transform = 'scale(1)';
+          ">
+        Editar Categoría
+      </a>
+    </section>
+  </main>
+</body>
+
+</html>
+
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Le Flambeau — Velas Artesanales</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="css/styles.css" />
+
+  <style>
+    :root {
+      --primary: #6b3f2e;
+      --accent: #d4a373;
+      --bg: #f8f5f2;
+      --card: #ffffff;
+      --text: #2f2f2f;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #f8f5f2, #efe6dd);
+      color: var(--text);
+    }
+
+    header {
+      background: var(--primary);
+      color: white;
+      padding: 1.5rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    header h1 {
+      font-size: 1.8rem;
+      letter-spacing: 1px;
+    }
+
+    nav {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: white;
+      background: rgba(255, 255, 255, 0.15);
+      padding: 0.5rem 1rem;
+      border-radius: 999px;
+      transition: all 0.2s ease;
+      font-size: 0.9rem;
+    }
+
+    nav a:hover {
+      background: var(--accent);
+      color: #000;
+    }
+
+    .hero {
+      max-width: 1100px;
+      margin: 3rem auto;
+      padding: 3rem;
+      background: var(--card);
+      border-radius: 20px;
+      box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
+      text-align: center;
+    }
+
+    .hero h2 {
+      font-size: 2.2rem;
+      color: var(--primary);
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      opacity: 0.85;
+    }
+
+    .grid {
+      max-width: 1100px;
+      margin: 2rem auto 4rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.5rem;
+      padding: 0 1rem;
+    }
+
+    .card {
+      background: var(--card);
+      border-radius: 18px;
+      padding: 2rem;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 18px 35px rgba(0, 0, 0, 0.1);
+    }
+
+    .card h3 {
+      color: var(--primary);
+      margin-bottom: 0.5rem;
+    }
+
+    .card p {
+      font-size: 0.95rem;
+      opacity: 0.85;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      background: var(--primary);
+      color: white;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Le Flambeau</h1>
+    <nav>
+      <a href="catalogo.html">Catálogo</a>
+      <a href="Ccategoria.html">Crear Categoría</a>
+      <a href="Lcategoria.html">Listar Categoría</a>
+      <a href="Ecategoria.html">Editar Categoría</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Velas Artesanales con Estilo</h2>
+      <p>
+        Descubre aromas únicos, diseños elegantes y una experiencia sensorial
+        creada para acompañar tus momentos especiales.
+      </p>
+    </section>
+
+    <section class="grid">
+      <div class="card">
+        <h3>Nuestra Historia</h3>
+        <p>
+          Creamos velas artesanales combinando tradición, creatividad y
+          materiales naturales para ofrecer productos únicos.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Compra Fácil</h3>
+        <p>
+          Visítanos en tienda, realiza pedidos directos o encuéntranos en redes
+          para descubrir lanzamientos exclusivos.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Calidad Premium</h3>
+        <p>
+          Cada vela es elaborada cuidadosamente para brindar aroma duradero,
+          estética elegante y bienestar.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 Le Flambeau — Velas Artesanales
+  </footer>
+</body>
+
+</html>

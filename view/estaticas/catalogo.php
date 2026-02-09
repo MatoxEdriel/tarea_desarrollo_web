@@ -1,0 +1,250 @@
+<?php require_once HEADER; ?>
+
+<main>
+    <section>
+        <h2>Categorías de Velas</h2>
+
+        <!-- Aromáticas -->
+        <article>
+            <h3>Aromáticas</h3>
+            <div class="catalog-grid">
+                <div class="product-card">
+                    <img src="/assets/images/VelasIMG/Aromaticas/a1.png" alt="Lavanda">
+                    <p>Lavanda</p>
+                </div>
+                <div class="product-card">
+                    <img src="/assets/images/VelasIMG/Aromaticas/a2.png" alt="Vainilla">
+                    <p>Vainilla</p>
+                </div>
+                <div class="product-card">
+                    <img src="/assets/images/VelasIMG/Aromaticas/a3.png" alt="Rosa">
+                    <p>Rosa</p>
+                </div>
+                <div class="product-card">
+                    <img src="/assets/images/VelasIMG/Aromaticas/a4.png" alt="Canela">
+                    <p>Canela</p>
+                </div>
+            </div>
+        </article>
+
+        <!-- Antimosquitos -->
+        <article>
+            <h3>Antimosquitos</h3>
+            <div class="catalog-grid">
+                <div class="product-card">
+                    <img src="/assets/images/VelasIMG/Antimosquitos/am1.png" alt="Citronela clásica">
+                    <p>Citronela clásica</p>
+                </div>
+                <div class="product-card">
+                    <img src="/assets/images/VelasIMG/Antimosquitos/am2.png" alt="Citronela + Eucalipto">
+                    <p>Citronela + Eucalipto</p>
+                </div>
+                <div class="product-card">
+                    <img src="/assets/images/VelasIMG/Antimosquitos/am3.png" alt="Citronela premium">
+                    <p>Citronela premium</p>
+                </div>
+            </div>
+        </article>
+
+        <!-- Candelabro -->
+        <article>
+            <h3>Candelabro</h3>
+            <div class="catalog-grid">
+                <div class="product-card">
+                    <img src="/assets/images/VelasIMG/Candelabro/c1.png" alt="Candelabro 1">
+                    <p>Candelabro 1</p>
+                </div>
+                <div class="product-card">
+                    <img src="/assets/images/VelasIMG/Candelabro/c2.png" alt="Candelabro 2">
+                    <p>Candelabro 2</p>
+                </div>
+                <div class="product-card">
+                    <img src="/assets/images/VelasIMG/Candelabro/c3.png" alt="Candelabro 3">
+                    <p>Candelabro 3</p>
+                </div>
+            </div>
+        </article>
+
+        <!-- Cilíndricas -->
+        <article>
+            <h3>Cilíndricas</h3>
+            <div class="catalog-grid">
+                <div class="product-card">
+                    <img src="/assets/images/VelasIMG/Cilindricas/cl1.png" alt="Cilíndrica 1">
+                    <p>Cilíndrica 1</p>
+                </div>
+                <div class="product-card">
+                    <img src="/assets/images/VelasIMG/Cilindricas/cl2.png" alt="Cilíndrica 2">
+                    <p>Cilíndrica 2</p>
+                </div>
+                <div class="product-card">
+                    <img src="/assets/images/VelasIMG/Cilindricas/cl3.png" alt="Cilíndrica 3">
+                    <p>Cilíndrica 3</p>
+                </div>
+            </div>
+        </article>
+
+        <!-- Con Formas -->
+        <article>
+            <h3>Con Formas</h3>
+            <div class="catalog-grid">
+                <div class="product-card">
+                    <img src="/assets/images/VelasIMG/ConFormas/f1.png" alt="Forma 1">
+                    <p>Forma 1</p>
+                </div>
+                <div class="product-card">
+                    <img src="/assets/images/VelasIMG/ConFormas/f2.png" alt="Forma 2">
+                    <p>Forma 2</p>
+                </div>
+                <div class="product-card">
+                    <img src="/assets/images/VelasIMG/ConFormas/f3.png" alt="Forma 3">
+                    <p>Forma 3</p>
+                </div>
+            </div>
+        </article>
+
+        <!-- Cumpleaños -->
+        <article>
+            <h3>Cumpleaños</h3>
+            <div class="catalog-grid">
+                <div class="product-card">
+                    <img src="/assets/images/VelasIMG/Cumpleanos/vc1.png" alt="Clásica">
+                    <p>Clásica</p>
+                </div>
+                <div class="product-card">
+                    <img src="/assets/images/VelasIMG/Cumpleanos/vc2.png" alt="Números">
+                    <p>Números</p>
+                </div>
+                <div class="product-card">
+                    <img src="/assets/images/VelasIMG/Cumpleanos/vc3.png" alt="Temáticas">
+                    <p>Temáticas</p>
+                </div>
+                <div class="product-card">
+                    <img src="/assets/images/VelasIMG/Cumpleanos/vc4.png" alt="Pastel Decorativo">
+                    <p>Pastel Decorativo</p>
+                </div>
+            </div>
+        </article>
+
+        <!-- Decorativas -->
+        <article>
+            <h3>Decorativas</h3>
+            <div class="catalog-grid">
+                <div class="product-card">
+                    <img src="/assets/images/VelasIMG/Decorativas/d1.png" alt="Decorativa 1">
+                    <p>Decorativa 1</p>
+                </div>
+                <div class="product-card">
+                    <img src="/assets/images/VelasIMG/Decorativas/d2.png" alt="Decorativa 2">
+                    <p>Decorativa 2</p>
+                </div>
+                <div class="product-card">
+                    <img src="/assets/images/VelasIMG/Decorativas/d3.png" alt="Decorativa 3">
+                    <p>Decorativa 3</p>
+                </div>
+                <div class="product-card">
+                    <img src="/assets/images/VelasIMG/Decorativas/d4.png" alt="Decorativa 4">
+                    <p>Decorativa 4</p>
+                </div>
+            </div>
+        </article>
+
+        <!-- DeTe -->
+        <article>
+            <h3>DeTe</h3>
+            <div class="catalog-grid">
+                <div class="product-card">
+                    <img src="/assets/images/VelasIMG/DeTe/vt1.png" alt="DeTe 1">
+                    <p>DeTe 1</p>
+                </div>
+                <div class="product-card">
+                    <img src="/assets/images/VelasIMG/DeTe/vt2.png" alt="DeTe 2">
+                    <p>DeTe 2</p>
+                </div>
+                <div class="product-card">
+                    <img src="/assets/images/VelasIMG/DeTe/vt3.png" alt="DeTe 3">
+                    <p>DeTe 3</p>
+                </div>
+            </div>
+        </article>
+
+        <!-- Flotantes -->
+        <article>
+            <h3>Flotantes</h3>
+            <div class="catalog-grid">
+                <div class="product-card">
+                    <img src="/assets/images/VelasIMG/Flotantes/vf1.png" alt="Flotante 1">
+                    <p>Flotante 1</p>
+                </div>
+                <div class="product-card">
+                    <img src="/assets/images/VelasIMG/Flotantes/vf2.png" alt="Flotante 2">
+                    <p>Flotante 2</p>
+                </div>
+                <div class="product-card">
+                    <img src="/>assets/images/VelasIMG/Flotantes/vf3.png" alt="Flotante 3">
+                    <p>Flotante 3</p>
+                </div>
+            </div>
+        </article>
+
+        <!-- Gel -->
+        <article>
+            <h3>Gel</h3>
+            <div class="catalog-grid">
+                <div class="product-card">
+                    <img src="/assets/images/VelasIMG/Gel/g1.png" alt="Gel 1">
+                    <p>Gel 1</p>
+                </div>
+                <div class="product-card">
+                    <img src="/assets/images/VelasIMG/Gel/g2.png" alt="Gel 2">
+                    <p>Gel 2</p>
+                </div>
+                <div class="product-card">
+                    <img src="/assets/images/VelasIMG/Gel/g3.png" alt="Gel 3">
+                    <p>Gel 3</p>
+                </div>
+            </div>
+        </article>
+
+        <!-- Masaje -->
+        <article>
+            <h3>Masaje</h3>
+            <div class="catalog-grid">
+                <div class="product-card">
+                    <img src="/assets/images/VelasIMG/Masaje/vm1.png" alt="Masaje 1">
+                    <p>Masaje 1</p>
+                </div>
+                <div class="product-card">
+                    <img src="/assets/images/VelasIMG/Masaje/vm2.png" alt="Masaje 2">
+                    <p>Masaje 2</p>
+                </div>
+                <div class="product-card">
+                    <img src="/assets/images/VelasIMG/Masaje/vm3.png" alt="Masaje 3">
+                    <p>Masaje 3</p>
+                </div>
+            </div>
+        </article>
+
+        <!-- Religiosas -->
+        <article>
+            <h3>Religiosas</h3>
+            <div class="catalog-grid">
+                <div class="product-card">
+                    <img src="/assets/images/VelasIMG/Religiosas/vr1.png" alt="Religiosa 1">
+                    <p>Religiosa 1</p>
+                </div>
+                <div class="product-card">
+                    <img src="/assets/images/VelasIMG/Religiosas/vr2.png" alt="Religiosa 2">
+                    <p>Religiosa 2</p>
+                </div>
+                <div class="product-card">
+                    <img src="/assets/images/VelasIMG/Religiosas/vr3.png" alt="Religiosa 3">
+                    <p>Religiosa 3</p>
+                </div>
+            </div>
+        </article>
+
+    </section>
+</main>
+
+<?php require_once FOOTER; ?>

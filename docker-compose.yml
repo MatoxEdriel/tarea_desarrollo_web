@@ -1,0 +1,39 @@
+version: "3.8"
+
+services:
+  web:
+    build: ./docker/php
+    container_name: mvc_php
+    ports:
+      - "8000:80"
+    volumes:
+      - .:/var/www/html
+    depends_on:
+      - db
+
+  db:
+    image: mysql:8.0
+    container_name: mvc_mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: CandlesYou_db
+      MYSQL_USER: user
+      MYSQL_PASSWORD: user
+    ports:
+      - "3309:3306"
+    volumes:
+      - db_data:/var/lib/mysql
+      - ./CandlesYou_db.sql:/docker-entrypoint-initdb.d/CandlesYou_db.sql
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: mvc_phpmyadmin
+    restart: always
+    ports:
+      - "8080:80"
+    environment:
+      PMA_HOST: db
+
+volumes:
+  db_data:
